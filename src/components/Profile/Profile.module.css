@@ -1,0 +1,74 @@
+.profile {
+  background-color: #ebf2fc;
+  width: 700px;
+  height: 700px;
+  margin: 0 auto;
+  padding: 150px 100px;
+}
+.description {
+  background-color: whitesmoke;
+  width: 508px;
+  height: 550px;
+  margin: 0 auto;
+  padding-top: 45px;
+  border: solid 3px #d4d5d8;;
+  border-radius: 5px;
+}
+.avatar {
+  width: 300px;
+  padding-top: 20px;
+  border-radius: 50%;
+  border-color:#d4d5d8;
+  border-style: solid;
+  margin: 0 auto;
+ 
+  
+}
+.username {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+}
+.tag {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 28px;
+  color: grey;
+}
+.location {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 28px;
+  color: grey;
+}
+.stats {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.stats>li {
+    width: 166px;
+    height: 166px;
+    border: solid 2px #d4d5d8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    background-color:#ebedf0;
+    border-radius: 5px;
+
+}
+
+.label {
+    font-size: 22px;
+    color: gray;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.quantity{
+    font-size: 24px;
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
